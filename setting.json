@@ -1,6 +1,6 @@
 {
     "meta": {
-        "version": "1.0.3/1;workstack=11",
+        "version": "1.0.3/1;workstack=12",
         "admin": "",
         "defaultHosting": ""
     },
@@ -915,12 +915,11 @@
         {
             "listen": "*:80",
             "origin": {
+                "protocol": "http",
                 "address": [
                     "m2.winesoft.co.kr"
-                ],
-                "protocol": "http"
+                ]
             },
-            "name": "test.winesoft.co.kr",
             "functions": {
                 "contents": {
                     "dims": {
@@ -933,6 +932,7 @@
                     }
                 }
             },
+            "name": "test.winesoft.co.kr",
             "enable": true
         }
     ]

@@ -1,6 +1,6 @@
 {
     "meta": {
-        "version": "1.0.3/1;workstack=13",
+        "version": "1.0.3/1;workstack=14",
         "admin": "",
         "defaultHosting": ""
     },
@@ -924,10 +924,10 @@
                 "contents": {
                     "dims": {
                         "meta": {
-                            "maxSourceSize": 2,
-                            "enable": true,
+                            "keyword": "dims",
                             "minSourceSize": 0,
-                            "keyword": "dims"
+                            "maxSourceSize": 2,
+                            "enable": true
                         }
                     }
                 }

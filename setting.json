@@ -1,6 +1,6 @@
 {
     "meta": {
-        "version": "1.0.3/1;workstack=18",
+        "version": "1.0.3/1;workstack=19",
         "admin": "",
         "defaultHosting": ""
     },
@@ -918,22 +918,30 @@
             "functions": {
                 "contents": {
                     "dims": {
-                        "meta": {
-                            "enable": true,
-                            "minSourceSize": 0,
-                            "maxSourceSize": 20,
-                            "keyword": "dims"
-                        },
                         "composite": [
                             {
-                                "path": "isewtweetbg.jpg",
-                                "file": "https://storage.googleapis.com/download/storage/v1/b/stg-m2live-api.appspot.com/o/services%2Fstg-63448651-747f-457a-884f-f0e6b6d75738?generation=1663293116679857&alt=media",
+                                "dissolve": 50,
                                 "id": 1,
+                                "path": "isewtweetbg.jpg",
                                 "name": "test",
                                 "gravity": "w",
-                                "dissolve": 50
+                                "file": "https://storage.googleapis.com/download/storage/v1/b/stg-m2live-api.appspot.com/o/services%2Fstg-63448651-747f-457a-884f-f0e6b6d75738?generation=1663293116679857&alt=media"
+                            },
+                            {
+                                "path": "test.jpg",
+                                "name": "test2",
+                                "gravity": "c",
+                                "id": 2,
+                                "dissolve": 50,
+                                "file": "https://storage.googleapis.com/download/storage/v1/b/stg-m2live-api.appspot.com/o/services%2Fstg-14d03034-0181-4102-8f96-e0ec96c1ee6b?generation=1663293399735246&alt=media"
                             }
-                        ]
+                        ],
+                        "meta": {
+                            "enable": true,
+                            "maxSourceSize": 20,
+                            "keyword": "dims",
+                            "minSourceSize": 0
+                        }
                     }
                 }
             },
